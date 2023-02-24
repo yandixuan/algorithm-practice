@@ -1,3 +1,8 @@
 {
-  "cSpell.enabled": false
+  "cSpell.enabled": false,
+  "markdownlint.config": {
+    "MD010":{
+      "ignore_code_languages": ["go","java"]
+    }
+  }
 }
