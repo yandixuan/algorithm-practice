@@ -1,8 +1,12 @@
 {
   "cSpell.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true
+  },
   "markdownlint.config": {
-    "MD010":{
-      "ignore_code_languages": ["go","java"]
-    }
+    "MD010": {
+      "ignore_code_languages": ["java"],
+      "spaces_per_tab": 4
+    },
   }
 }
